@@ -37,8 +37,7 @@ SEMESTER_7 = joblib.load('MODEL_SEMESTER7_RF.pkl')
 with st.sidebar:
     selected = option_menu('Prediksi Kelulusan Mahasiswa Teknik Industri UNTIRTA',
                            ['SEMESTER 1', 'SEMESTER 2', 'SEMESTER 3', 'SEMESTER 4',
-                                    'SEMESTER 5', 'SEMESTER 6', 'SEMESTER 7'],
-                           default_index=0)
+                            'SEMESTER 5', 'SEMESTER 6', 'SEMESTER 7'], default_index=0)
 
 # Diabetes Prediction Page
 if (selected == 'SEMESTER 1'):
